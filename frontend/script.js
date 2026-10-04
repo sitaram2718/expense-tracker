@@ -1,5 +1,5 @@
 const $ = (id) => document.getElementById(id);
-const API = "https://expense-tracker-odyn.onrender.com/";
+const API = "https://expense-tracker-odyn.onrender.com/api";
 const fmt = (n) => `Rs ${Number(n).toFixed(2)}`;
 const getUser = () => localStorage.getItem("user");
 const setUser = (email) => localStorage.setItem("user", email);
